@@ -1,0 +1,17 @@
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: repeat(5,50px);
+    width: 200px;
+}
+.display{
+    text-align: right;
+    border: 1px solid;
+    width: 200px;
+    grid-column-start: 1;
+    grid-column-end:5 ;
+    font-size: 30px;
+}
+.operator{
+    background: aqua;
+}
